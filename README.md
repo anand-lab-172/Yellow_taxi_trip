@@ -18,6 +18,6 @@ Processed data are stored as 20230101_yellow_taxi_kpis.json as per requested
 
 Reading and appending the json ouput also converting them as new chucked csv by following name 202301_yellow_taxi_kpis.csv
 
-The example code are explained well, which helps you to understand my work. 
+The ```example code``` are explained well, which helps you to understand my work. 
 
-Please take a look for example code before getting into main code. Thank you!
+Please take a look for ```example code``` before getting into main code. Thank you!
