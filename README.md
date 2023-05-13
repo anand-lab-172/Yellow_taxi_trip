@@ -1,7 +1,7 @@
 # Yellow_taxi_trip
 Data about yellow taxi trip
 
-![taxi]([https://gifdb.com/gif/new-york-city-manhattan-jn48x9qlrld49vjd.html](https://media1.giphy.com/media/3ohfFH6Evbu6ElsiIw/giphy.gif?cid=ecf05e475wod8aarxhbxb1ajwfz0vcjt5hbkgns21rx1lsqd&ep=v1_gifs_search&rid=giphy.gif&ct=g))
+![taxi]![New York City Manhattan](https://github.com/anand-lab-172/Yellow_taxi_trip/assets/74824247/9ff03536-23a4-4dd7-b73a-38da61780777)
 
 About ```Main Code```:
 
