@@ -8,7 +8,7 @@ About Main Code:
 * Code in ```else``` helps to run 2010 files
 
 
-Processing the data1:
+Processing the data:
 
 * The average price per mile traveled by the customers of taxis: Calculated and saved as ```df['avg_cost_per_miles']```
 * The distribution of payment types: Calculated and saved as ```df['count_of_trips_by_payment']```
@@ -16,4 +16,4 @@ Processing the data1:
 
 Processed data are stored as 20230101_yellow_taxi_kpis.json as per requested
 
-Reading and appending the json ouput also converting them as chucked new csv by following name 202301_yellow_taxi_kpis.csv
+Reading and appending the json ouput also converting them as new chucked csv by following name 202301_yellow_taxi_kpis.csv
