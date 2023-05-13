@@ -5,9 +5,9 @@ Data about yellow taxi trip
 
 About ```Main Code```:
 
-* Code in ```if``` helps to run 2009 files 
-* Code in ```elif``` helps to run 2011 and later files 
-* Code in ```else``` helps to run 2010 files
+* Code in ```if``` helps to run year 2009 files 
+* Code in ```elif``` helps to run year 2011 and later files 
+* Code in ```else``` helps to run year 2010 files
 
 
 Processing the data:
