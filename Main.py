@@ -32,7 +32,6 @@ for k in allfiles:
         df['trip_pickup_datetime'] = df['trip_pickup_datetime'].dt.date
         df['trip_dropoff_datetime'] = df['trip_dropoff_datetime'].dt.date
 
-        cash = df[(df['payment_type']==2) & (df['tip_amount']!=0)]
         avg = df['total_amount'].sum()/df['total_amount'].count()
         #print('Calculating the average price spend by the customers: \n',avg,"\n")
         df['avg_cost_per_miles'] = round(avg/df['trip_distance'],2)
@@ -103,7 +102,7 @@ for k in allfiles:
         df['tpep_pickup_datetime'] = df['tpep_pickup_datetime'].dt.date
         df['tpep_dropoff_datetime'] = df['tpep_dropoff_datetime'].dt.date
     
-        cash = df[(df['payment_type']==2) & (df['tip_amount']!=0)]
+        
         avg = df['total_amount'].sum()/df['total_amount'].count()
         #print('Calculating the average price spend by the customers: \n',avg,"\n")
         df['avg_cost_per_miles'] = round(avg/df['trip_distance'],2)
@@ -184,7 +183,7 @@ for k in allfiles:
         df['trip_pickup_datetime'] = df['trip_pickup_datetime'].dt.date
         df['trip_dropoff_datetime'] = df['trip_dropoff_datetime'].dt.date
 
-        cash = df[(df['payment_type']==2) & (df['tip_amount']!=0)]
+        
         avg = df['total_amount'].sum()/df['total_amount'].count()
         #print('Calculating the average price spend by the customers: \n',avg,"\n")
         df['avg_cost_per_miles'] = round(avg/df['trip_distance'],2)
@@ -267,5 +266,4 @@ combined_df = pd.concat(dataframes, ignore_index=True)
 combined_df.to_csv('C:/Users/z031844/Downloads/final_sub/'+name+'_yellow_taxi_kpis.csv',chunksize=1000)
 
 print('A new CSV chunked is available and saved as '+name+'_yellow_taxi_kpis.csv')
-
 
