@@ -3,12 +3,6 @@ Data about yellow taxi trip 👇
 
 ![New York City Manhattan](https://github.com/anand-lab-172/Yellow_taxi_trip/assets/74824247/9ff03536-23a4-4dd7-b73a-38da61780777)
 
-About ```Main Code```:
-
-* Code in ```if``` helps to run year 2009 files.
-* Code in ```elif``` helps to run year 2011 and later files.
-* Code in ```else``` helps to run year 2010 files.
-
 
 Processing the data:
 
@@ -23,3 +17,10 @@ Reading and appending the json ouput also converting them as new chucked csv by 
 The ```example code``` are explained well, which helps you to understand my work. 
 
 Please take a look for ```example code``` before getting into main code. Thank you!
+
+
+About ```Main Code```:
+
+* Code in ```if``` helps to run year 2009 files.
+* Code in ```elif``` helps to run year 2011 and later files.
+* Code in ```else``` helps to run year 2010 files.
